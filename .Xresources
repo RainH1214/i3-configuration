@@ -1,0 +1,48 @@
+!Rxvt*font:			xft:monospace:size=11
+Rxvt*font:			xft:monospace:size=11
+
+URxvt.keysym.Control-V: eval:paste_clipboard
+URxvt.keysym.Control-C: eval:selection_to_clipboard
+
+URxvt.perl-ext-common: resize-font
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+
+URxvt.scrollBar: false
+! special
+*.foreground:   #e4e4e4
+*.background:   #121212
+*.cursorColor:  #e4e4e4
+
+! black
+*.color0:       #121212
+*.color8:       #585858
+
+! red
+*.color1:       #4a124a
+*.color9:       #4a124a
+
+! green
+*.color2:       #1c5f5f
+*.color10:      #008787
+
+! yellow
+*.color3:       #af871c
+*.color11:      #dfaf00
+
+! blue
+*.color4:        #003366
+*.color12:       #003366
+
+! magenta
+*.color5:       #003366
+*.color13:      #003366
+
+! cyan
+*.color6:       #003366
+*.color14:      #003366
+
+! white
+*.color7:       #afafaf
+*.color15:      #e4e4e4
+
